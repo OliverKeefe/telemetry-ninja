@@ -1,5 +1,5 @@
 import logging
-import pathlib
+from pathlib import Path
 from logging.handlers import RotatingFileHandler
 
 class LogConfiguration:
@@ -9,11 +9,12 @@ class LogConfiguration:
         self.log_format = log_format
      
     # TODO: Add a method to get the log file path using pathlib.Path.    
-    @classmethod    
-    def get_log_path(self) -> str:
-        log_file = '~\\telemetry-ninja\\logs\\log.log'
-        return log_file
-        
+    @staticmethod    
+    def get_log_path() -> str:
+        log_file = Path('..', 'logs', 'telemetry_ninja.log')
+        absolute_path = str(log_file.expanduser().resolve())
+        return absolute_path
+    
     @staticmethod
     def enable(logger_name: str, log_file: str, log_format: str) -> tuple[object, str, object]:
         logger = logging.getLogger(logger_name)
