@@ -12,8 +12,8 @@ class LogConfiguration:
     @staticmethod    
     def get_log_path() -> str:
         log_file = Path('..', 'logs', 'telemetry_ninja.log')
-        absolute_path = str(log_file.expanduser().resolve())
-        return absolute_path
+        log_file_path = str(log_file.expanduser().resolve())
+        return log_file_path
     
     @staticmethod
     def enable(logger_name: str, log_file: str, log_format: str) -> tuple[object, str, object]:
