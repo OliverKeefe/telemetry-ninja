@@ -26,7 +26,7 @@ class LogConfiguration:
         return logger, log_file, log_format
     
     @staticmethod
-    def disable():
+    def disable(log_file_path: str) -> None:
         pass
         
     

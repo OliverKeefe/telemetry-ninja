@@ -1,2 +1,51 @@
 2023-10-30 13:14:34,606 - DEBUG - This is a debug message
 2023-10-30 13:14:40,291 - DEBUG - This is a debug message
+2023-10-30 13:20:11,737 - INFO - This is an info message
+2023-10-30 14:02:58,203 - INFO - Telemetry Ninja was started.
+2023-10-30 14:02:58,413 - ERROR - Error connecting to iRacing Simulator: 'NoneType' object has no attribute 'num_vars'
+2023-10-30 14:07:43,862 - INFO - Telemetry Ninja was started.
+2023-10-30 14:07:44,293 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:17:37,457 - INFO - Telemetry Ninja was started.
+2023-10-30 14:17:38,006 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:18:34,805 - INFO - Telemetry Ninja was started.
+2023-10-30 14:18:35,222 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:22:25,460 - INFO - Telemetry Ninja was started.
+2023-10-30 14:22:25,906 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:26:34,015 - INFO - Telemetry Ninja was started.
+2023-10-30 14:26:34,418 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:27:00,491 - INFO - Telemetry Ninja was started.
+2023-10-30 14:27:01,002 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:27:15,935 - INFO - Telemetry Ninja was started.
+2023-10-30 14:27:16,386 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:27:34,588 - INFO - Telemetry Ninja was started.
+2023-10-30 14:27:34,986 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:28:21,730 - INFO - Telemetry Ninja was started.
+2023-10-30 14:28:22,119 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:28:36,410 - INFO - Telemetry Ninja was started.
+2023-10-30 14:28:36,804 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:29:56,145 - INFO - Telemetry Ninja was started.
+2023-10-30 14:29:56,586 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:30:20,790 - INFO - Telemetry Ninja was started.
+2023-10-30 14:30:21,203 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:31:29,898 - INFO - Telemetry Ninja was started.
+2023-10-30 14:31:30,318 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:32:13,258 - INFO - Telemetry Ninja was started.
+2023-10-30 14:32:13,701 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:32:37,766 - INFO - Telemetry Ninja was started.
+2023-10-30 14:32:38,151 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:33:06,239 - INFO - Telemetry Ninja was started.
+2023-10-30 14:33:06,667 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:33:55,349 - INFO - Telemetry Ninja was started.
+2023-10-30 14:33:55,784 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:34:18,214 - INFO - Telemetry Ninja was started.
+2023-10-30 14:34:18,618 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:34:35,961 - INFO - Telemetry Ninja was started.
+2023-10-30 14:34:36,384 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:35:26,497 - INFO - Telemetry Ninja was started.
+2023-10-30 14:35:26,883 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:35:26,886 - DEBUG - Car is on track is on track.
+2023-10-30 14:37:45,304 - INFO - Telemetry Ninja was started.
+2023-10-30 14:37:45,595 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:38:13,255 - INFO - Telemetry Ninja was started.
+2023-10-30 14:38:13,482 - DEBUG - Successfully connected to iRacing Simulator.
+2023-10-30 14:38:13,483 - DEBUG - Car is on track is on track.
