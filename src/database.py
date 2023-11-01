@@ -47,7 +47,7 @@ class Database:
     def unique_entry_identifier_create() -> str:
         t = time.localtime()
         time_now = time.strftime("%H:%M:%S", t)
-        return str(f"{time_now} - {uuid.uuid4()}")
+        return str(f"{time_now}:{uuid.uuid4()}")
 
     # TODO: Potential issue with this method, more debugging needed...
     def table_create(
@@ -62,29 +62,33 @@ class Database:
         columns = []
         columns.append("UniqueEntryIdentifier TEXT PRIMARY KEY")
 
-        try:
-            for attr, value in database_attributes.items():
-                if isinstance(value, int):
-                    columns.append(f"{attr} INTEGER")
-                elif isinstance(value, float):
+        # for attr, value in database_attributes.items():
+        #    if isinstance(value, int):
+        #        columns.append(f"{attr} INTEGER")
+        #    elif isinstance(value, float):
+        #        columns.append(f"{attr} FLOAT")
+        #    else:
+        #        columns.append(f"{attr} TEXT")
+
+        for attr, value in database_attributes.items():
+            try:
+                int(value)
+                columns.append(f"{attr} INTEGER")
+            except ValueError:
+                try:
+                    float(value)
                     columns.append(f"{attr} FLOAT")
-                else:
+                except ValueError:
                     columns.append(f"{attr} TEXT")
-        except Exception as e:
-            logging.error(f"Error ascertaining column datatypes: {e}")
+        columns_to_string = ", ".join(columns)
+        cursor = database_connection.cursor()
 
-            columns_to_string = ", ".join(columns)
-            cursor = database_connection.cursor()
-
-        try:
-            with database_connection:
-                cursor.execute(
-                    f"CREATE TABLE IF NOT EXISTS telemetry ({columns_to_string})"
-                )
+        with database_connection:
+            cursor.execute(
+                f"CREATE TABLE IF NOT EXISTS telemetry ({columns_to_string})"
+            )
 
             # database_connection.commit()
-        except Exception as e:
-            logging.error(f"Error creating database table: {e}")
 
     # TODO: Fix this method. It's not inputting data into the table for some reason.
     @staticmethod
@@ -94,13 +98,13 @@ class Database:
         database_attributes: dict,
         debug: bool,
     ) -> None:
+        new_entry_uuid = Database.unique_entry_identifier_create()
         serialized_database_attributes = [
             json.dumps(val) if isinstance(val, list) else val
             for val in database_attributes.values()
         ]
         columns = "UniqueEntryIdentifier, " + ", ".join(database_attributes.keys())
         placeholders = "?, " + ", ".join(["?"] * len(database_attributes))
-        new_entry_uuid = Database.unique_entry_identifier_create()
 
         with database_connection:
             cursor = database_connection.cursor()

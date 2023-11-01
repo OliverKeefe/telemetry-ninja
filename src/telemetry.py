@@ -1,5 +1,5 @@
 from pathlib import Path
-from log_configuration import LogConfiguration
+from logconfig import LogConfiguration
 import logging
 
 
@@ -37,13 +37,11 @@ class Telemetry:
 
     @staticmethod
     def telemetry_get(ir, parsed_labels, debug: bool):
+        telemetry_data = {}
         try:
-            if debug == True:
-                logging.debug(f"Getting telemetry data from iRacing.")
-            for key, value in parsed_labels.items():
-                value_from_ir = ir[key]
-                parsed_labels[key] = value_from_ir
-            return parsed_labels
-
+            for key in parsed_labels.keys():
+                telemetry_data[key] = ir[key]
+            return telemetry_data
         except Exception as e:
             logging.error(f"Error getting telemetry data from iRacing: {e}")
+            return {}
