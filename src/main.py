@@ -30,7 +30,7 @@ def main():
         if ir["IsOnTrack"]:
             logger.info("Car is on track.")
             if not Path("database/telemetry_ninja.db").exists():
-                telemetry = Telemetry.telemetry_get(ir, parsed_labels, debug)
+                telemetry_data = Telemetry.telemetry_get(ir, parsed_labels, debug)
 
                 # Establish database connection and create table
                 database_connection = Database.database_connect(
@@ -43,18 +43,20 @@ def main():
                     database_name="telemetry_ninja.db",
                     database_attributes=database_attributes,
                     database_connection=database_connection,
+                    telemetry_data=telemetry_data,
                     debug=debug,
                 )
             else:
-                telemetry = Telemetry.telemetry_get(ir, parsed_labels, debug)
+                telemetry_data = Telemetry.telemetry_get(ir, parsed_labels, debug)
                 Database.table_insert(
                     "telemetry",
                     database_connection,
                     database_attributes,
+                    telemetry_data,
                     debug,
                 )
             # print(f"Telemetry: {telemetry}")
-            print(f"{parsed_labels}")
+            print(f"{telemetry_data}")
         else:
             logger.info("Car is not on track.")
             time.sleep(2)

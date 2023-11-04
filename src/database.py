@@ -54,6 +54,7 @@ class Database:
         database_name: str,
         database_attributes: dict,
         database_connection: object,
+        telemetry_data: dict,
         debug: bool,
     ) -> None:
         if debug == True:
@@ -69,17 +70,16 @@ class Database:
         #        columns.append(f"{attr} FLOAT")
         #    else:
         #        columns.append(f"{attr} TEXT")
-
-        for attr, value in database_attributes.items():
-            try:
-                int(value)
+        for attr, value in telemetry_data.items():
+            if value is None:
+                value = "None"
+            if isinstance(value, int):
                 columns.append(f"{attr} INTEGER")
-            except ValueError:
-                try:
-                    float(value)
-                    columns.append(f"{attr} FLOAT")
-                except ValueError:
-                    columns.append(f"{attr} TEXT")
+            elif isinstance(value, float):
+                columns.append(f"{attr} FLOAT")
+            else:
+                columns.append(f"{attr} TEXT")
+
         columns_to_string = ", ".join(columns)
         cursor = database_connection.cursor()
 
@@ -96,16 +96,18 @@ class Database:
         table_name: str,
         database_connection: object,
         database_attributes: dict,
+        telemetry_data: dict,
         debug: bool,
     ) -> None:
         new_entry_uuid = Database.unique_entry_identifier_create()
         serialized_database_attributes = [
             json.dumps(val) if isinstance(val, list) else val
-            for val in database_attributes.values()
+            for val in telemetry_data.values()
         ]
-        columns = "UniqueEntryIdentifier, " + ", ".join(database_attributes.keys())
-        placeholders = "?, " + ", ".join(["?"] * len(database_attributes))
+        columns = "UniqueEntryIdentifier, " + ", ".join(telemetry_data.keys())
+        placeholders = "?, " + ", ".join(["?"] * len(telemetry_data))
 
+        database_connection = sqlite3.connect("telemetry_ninja.db")
         with database_connection:
             cursor = database_connection.cursor()
             cursor.execute(
