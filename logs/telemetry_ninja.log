@@ -2921,3 +2921,594 @@
 2023-11-04 16:11:42,098 - INFO - Car is on track.
 2023-11-04 16:11:42,113 - INFO - Car is on track.
 2023-11-04 16:11:42,129 - INFO - Car is on track.
+2023-11-06 11:07:19,651 - INFO - Telemetry Ninja was started.
+2023-11-06 11:07:20,194 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 11:07:20,205 - INFO - Car is not on track.
+2023-11-06 11:07:22,207 - INFO - Car is not on track.
+2023-11-06 11:07:24,209 - INFO - Car is not on track.
+2023-11-06 11:07:26,211 - INFO - Car is on track.
+2023-11-06 11:07:26,243 - INFO - Car is on track.
+2023-11-06 11:07:26,264 - INFO - Car is on track.
+2023-11-06 11:07:26,283 - INFO - Car is on track.
+2023-11-06 11:07:26,304 - INFO - Car is on track.
+2023-11-06 11:07:26,325 - INFO - Car is on track.
+2023-11-06 11:07:26,344 - INFO - Car is on track.
+2023-11-06 11:07:26,361 - INFO - Car is on track.
+2023-11-06 11:07:26,382 - INFO - Car is on track.
+2023-11-06 11:07:26,401 - INFO - Car is on track.
+2023-11-06 11:07:26,420 - INFO - Car is on track.
+2023-11-06 11:07:26,441 - INFO - Car is on track.
+2023-11-06 11:07:26,463 - INFO - Car is on track.
+2023-11-06 11:07:26,484 - INFO - Car is on track.
+2023-11-06 11:07:26,504 - INFO - Car is on track.
+2023-11-06 11:07:26,523 - INFO - Car is on track.
+2023-11-06 11:07:26,543 - INFO - Car is on track.
+2023-11-06 11:07:26,567 - INFO - Car is on track.
+2023-11-06 11:07:26,587 - INFO - Car is on track.
+2023-11-06 11:07:26,609 - INFO - Car is on track.
+2023-11-06 11:07:26,627 - INFO - Car is on track.
+2023-11-06 11:07:26,646 - INFO - Car is on track.
+2023-11-06 11:07:26,664 - INFO - Car is on track.
+2023-11-06 11:07:26,683 - INFO - Car is on track.
+2023-11-06 11:07:26,700 - INFO - Car is on track.
+2023-11-06 11:07:26,718 - INFO - Car is on track.
+2023-11-06 11:07:26,738 - INFO - Car is on track.
+2023-11-06 11:07:26,792 - INFO - Car is on track.
+2023-11-06 11:07:26,819 - INFO - Car is on track.
+2023-11-06 11:07:26,843 - INFO - Car is on track.
+2023-11-06 11:07:26,861 - INFO - Car is on track.
+2023-11-06 11:07:26,880 - INFO - Car is on track.
+2023-11-06 11:07:26,939 - INFO - Car is on track.
+2023-11-06 11:07:26,967 - INFO - Car is on track.
+2023-11-06 11:07:26,989 - INFO - Car is on track.
+2023-11-06 11:07:27,014 - INFO - Car is on track.
+2023-11-06 11:07:27,039 - INFO - Car is on track.
+2023-11-06 11:07:27,062 - INFO - Car is on track.
+2023-11-06 11:07:27,088 - INFO - Car is on track.
+2023-11-06 11:07:27,107 - INFO - Car is on track.
+2023-11-06 11:07:27,134 - INFO - Car is on track.
+2023-11-06 11:07:27,171 - INFO - Car is on track.
+2023-11-06 11:07:27,201 - INFO - Car is on track.
+2023-11-06 11:07:27,233 - INFO - Car is on track.
+2023-11-06 11:07:27,260 - INFO - Car is on track.
+2023-11-06 11:07:27,284 - INFO - Car is on track.
+2023-11-06 11:07:27,303 - INFO - Car is on track.
+2023-11-06 11:07:27,328 - INFO - Car is on track.
+2023-11-06 11:07:27,354 - INFO - Car is on track.
+2023-11-06 11:07:27,386 - INFO - Car is on track.
+2023-11-06 11:07:27,412 - INFO - Car is on track.
+2023-11-06 11:07:27,439 - INFO - Car is on track.
+2023-11-06 11:07:27,472 - INFO - Car is on track.
+2023-11-06 11:07:27,500 - INFO - Car is on track.
+2023-11-06 11:07:27,523 - INFO - Car is on track.
+2023-11-06 11:07:27,550 - INFO - Car is on track.
+2023-11-06 11:07:27,577 - INFO - Car is on track.
+2023-11-06 11:07:27,603 - INFO - Car is on track.
+2023-11-06 11:07:27,632 - INFO - Car is on track.
+2023-11-06 11:07:27,666 - INFO - Car is on track.
+2023-11-06 11:07:27,695 - INFO - Car is on track.
+2023-11-06 11:07:27,719 - INFO - Car is on track.
+2023-11-06 11:07:27,741 - INFO - Car is on track.
+2023-11-06 11:07:27,759 - INFO - Car is on track.
+2023-11-06 11:07:27,779 - INFO - Car is on track.
+2023-11-06 11:07:27,796 - INFO - Car is on track.
+2023-11-06 11:07:27,815 - INFO - Car is on track.
+2023-11-06 11:07:27,832 - INFO - Car is on track.
+2023-11-06 11:07:27,849 - INFO - Car is on track.
+2023-11-06 11:07:27,914 - INFO - Car is on track.
+2023-11-06 11:07:27,933 - INFO - Car is on track.
+2023-11-06 11:07:27,950 - INFO - Car is on track.
+2023-11-06 11:07:27,968 - INFO - Car is on track.
+2023-11-06 11:07:27,985 - INFO - Car is on track.
+2023-11-06 11:07:28,002 - INFO - Car is on track.
+2023-11-06 11:07:28,021 - INFO - Car is on track.
+2023-11-06 11:07:28,038 - INFO - Car is on track.
+2023-11-06 11:07:28,055 - INFO - Car is on track.
+2023-11-06 11:07:28,072 - INFO - Car is on track.
+2023-11-06 11:07:28,090 - INFO - Car is on track.
+2023-11-06 11:07:28,108 - INFO - Car is on track.
+2023-11-06 11:07:28,128 - INFO - Car is on track.
+2023-11-06 11:07:28,147 - INFO - Car is on track.
+2023-11-06 11:07:28,165 - INFO - Car is on track.
+2023-11-06 11:07:28,182 - INFO - Car is on track.
+2023-11-06 11:07:28,200 - INFO - Car is on track.
+2023-11-06 11:07:28,218 - INFO - Car is on track.
+2023-11-06 11:07:28,237 - INFO - Car is on track.
+2023-11-06 11:07:28,257 - INFO - Car is on track.
+2023-11-06 11:07:28,279 - INFO - Car is on track.
+2023-11-06 11:07:28,303 - INFO - Car is on track.
+2023-11-06 11:07:28,325 - INFO - Car is on track.
+2023-11-06 11:07:28,347 - INFO - Car is on track.
+2023-11-06 11:07:28,368 - INFO - Car is on track.
+2023-11-06 11:07:28,388 - INFO - Car is on track.
+2023-11-06 11:07:28,412 - INFO - Car is on track.
+2023-11-06 11:07:28,437 - INFO - Car is on track.
+2023-11-06 11:07:28,458 - INFO - Car is on track.
+2023-11-06 11:07:28,485 - INFO - Car is on track.
+2023-11-06 11:07:28,505 - INFO - Car is on track.
+2023-11-06 11:07:28,526 - INFO - Car is on track.
+2023-11-06 11:07:28,549 - INFO - Car is on track.
+2023-11-06 11:07:28,570 - INFO - Car is on track.
+2023-11-06 11:07:28,590 - INFO - Car is on track.
+2023-11-06 11:07:28,645 - INFO - Car is on track.
+2023-11-06 11:07:28,668 - INFO - Car is on track.
+2023-11-06 11:07:28,696 - INFO - Car is on track.
+2023-11-06 11:07:28,717 - INFO - Car is on track.
+2023-11-06 11:07:28,737 - INFO - Car is on track.
+2023-11-06 11:07:28,756 - INFO - Car is on track.
+2023-11-06 11:07:28,774 - INFO - Car is on track.
+2023-11-06 11:07:28,794 - INFO - Car is on track.
+2023-11-06 11:07:28,813 - INFO - Car is on track.
+2023-11-06 11:07:28,831 - INFO - Car is on track.
+2023-11-06 11:07:28,852 - INFO - Car is on track.
+2023-11-06 11:07:28,879 - INFO - Car is on track.
+2023-11-06 11:07:28,906 - INFO - Car is on track.
+2023-11-06 11:07:28,932 - INFO - Car is on track.
+2023-11-06 11:07:28,953 - INFO - Car is on track.
+2023-11-06 11:07:28,978 - INFO - Car is on track.
+2023-11-06 11:07:29,003 - INFO - Car is on track.
+2023-11-06 11:07:29,022 - INFO - Car is on track.
+2023-11-06 11:07:29,042 - INFO - Car is on track.
+2023-11-06 11:07:29,062 - INFO - Car is on track.
+2023-11-06 11:07:29,085 - INFO - Car is on track.
+2023-11-06 11:07:29,102 - INFO - Car is on track.
+2023-11-06 11:07:29,122 - INFO - Car is on track.
+2023-11-06 11:07:29,150 - INFO - Car is on track.
+2023-11-06 11:07:29,172 - INFO - Car is on track.
+2023-11-06 11:07:29,190 - INFO - Car is on track.
+2023-11-06 11:07:29,208 - INFO - Car is on track.
+2023-11-06 11:07:29,225 - INFO - Car is on track.
+2023-11-06 11:07:29,244 - INFO - Car is on track.
+2023-11-06 11:07:29,262 - INFO - Car is on track.
+2023-11-06 11:07:29,280 - INFO - Car is on track.
+2023-11-06 11:07:29,300 - INFO - Car is on track.
+2023-11-06 11:07:29,318 - INFO - Car is on track.
+2023-11-06 11:07:29,337 - INFO - Car is on track.
+2023-11-06 11:07:29,354 - INFO - Car is on track.
+2023-11-06 11:07:29,371 - INFO - Car is on track.
+2023-11-06 11:07:29,388 - INFO - Car is on track.
+2023-11-06 11:07:29,407 - INFO - Car is on track.
+2023-11-06 11:07:29,426 - INFO - Car is on track.
+2023-11-06 11:07:29,445 - INFO - Car is on track.
+2023-11-06 11:07:29,462 - INFO - Car is on track.
+2023-11-06 11:07:29,481 - INFO - Car is on track.
+2023-11-06 11:07:29,498 - INFO - Car is on track.
+2023-11-06 11:07:29,517 - INFO - Car is on track.
+2023-11-06 11:07:29,535 - INFO - Car is on track.
+2023-11-06 11:07:29,554 - INFO - Car is on track.
+2023-11-06 11:07:29,618 - INFO - Car is on track.
+2023-11-06 11:07:29,637 - INFO - Car is on track.
+2023-11-06 11:07:29,654 - INFO - Car is on track.
+2023-11-06 11:07:29,670 - INFO - Car is on track.
+2023-11-06 11:07:29,688 - INFO - Car is on track.
+2023-11-06 11:07:29,707 - INFO - Car is on track.
+2023-11-06 11:07:29,726 - INFO - Car is on track.
+2023-11-06 11:07:29,742 - INFO - Car is on track.
+2023-11-06 11:07:29,760 - INFO - Car is on track.
+2023-11-06 11:07:29,777 - INFO - Car is on track.
+2023-11-06 11:07:29,794 - INFO - Car is on track.
+2023-11-06 11:07:29,812 - INFO - Car is on track.
+2023-11-06 11:07:29,831 - INFO - Car is on track.
+2023-11-06 11:07:29,847 - INFO - Car is on track.
+2023-11-06 11:07:29,864 - INFO - Car is on track.
+2023-11-06 11:07:29,880 - INFO - Car is on track.
+2023-11-06 11:07:29,897 - INFO - Car is on track.
+2023-11-06 11:07:29,914 - INFO - Car is on track.
+2023-11-06 11:07:29,933 - INFO - Car is on track.
+2023-11-06 11:07:29,950 - INFO - Car is on track.
+2023-11-06 11:07:29,967 - INFO - Car is on track.
+2023-11-06 11:07:30,002 - INFO - Car is on track.
+2023-11-06 11:07:30,061 - INFO - Car is on track.
+2023-11-06 11:07:30,099 - INFO - Car is on track.
+2023-11-06 11:07:30,129 - INFO - Car is on track.
+2023-11-06 11:07:30,158 - INFO - Car is on track.
+2023-11-06 11:07:30,183 - INFO - Car is on track.
+2023-11-06 11:07:30,207 - INFO - Car is on track.
+2023-11-06 11:07:30,239 - INFO - Car is on track.
+2023-11-06 11:07:30,305 - INFO - Car is on track.
+2023-11-06 11:07:30,330 - INFO - Car is on track.
+2023-11-06 11:07:30,356 - INFO - Car is on track.
+2023-11-06 11:07:30,396 - INFO - Car is on track.
+2023-11-06 11:07:30,428 - INFO - Car is on track.
+2023-11-06 11:07:30,454 - INFO - Car is on track.
+2023-11-06 11:07:30,481 - INFO - Car is on track.
+2023-11-06 11:07:30,504 - INFO - Car is on track.
+2023-11-06 11:07:30,524 - INFO - Car is on track.
+2023-11-06 11:07:30,559 - INFO - Car is on track.
+2023-11-06 11:07:30,588 - INFO - Car is on track.
+2023-11-06 11:07:30,614 - INFO - Car is on track.
+2023-11-06 11:07:30,646 - INFO - Car is on track.
+2023-11-06 11:07:30,674 - INFO - Car is on track.
+2023-11-06 11:07:30,707 - INFO - Car is on track.
+2023-11-06 11:07:30,734 - INFO - Car is on track.
+2023-11-06 11:07:30,766 - INFO - Car is on track.
+2023-11-06 11:07:30,787 - INFO - Car is on track.
+2023-11-06 11:07:30,818 - INFO - Car is on track.
+2023-11-06 11:07:30,846 - INFO - Car is on track.
+2023-11-06 11:07:30,870 - INFO - Car is on track.
+2023-11-06 11:07:30,894 - INFO - Car is on track.
+2023-11-06 11:07:30,917 - INFO - Car is on track.
+2023-11-06 11:07:30,940 - INFO - Car is on track.
+2023-11-06 11:07:30,962 - INFO - Car is on track.
+2023-11-06 11:07:30,984 - INFO - Car is on track.
+2023-11-06 11:07:31,006 - INFO - Car is on track.
+2023-11-06 11:07:31,034 - INFO - Car is on track.
+2023-11-06 11:07:31,056 - INFO - Car is on track.
+2023-11-06 11:07:31,079 - INFO - Car is on track.
+2023-11-06 11:07:31,099 - INFO - Car is on track.
+2023-11-06 11:07:31,118 - INFO - Car is on track.
+2023-11-06 11:07:31,140 - INFO - Car is on track.
+2023-11-06 11:07:31,168 - INFO - Car is on track.
+2023-11-06 11:07:31,186 - INFO - Car is on track.
+2023-11-06 11:07:31,205 - INFO - Car is on track.
+2023-11-06 11:07:31,248 - INFO - Car is on track.
+2023-11-06 11:07:31,278 - INFO - Car is on track.
+2023-11-06 11:07:31,298 - INFO - Car is on track.
+2023-11-06 11:07:31,314 - INFO - Car is on track.
+2023-11-06 11:07:31,331 - INFO - Car is on track.
+2023-11-06 11:07:31,349 - INFO - Car is on track.
+2023-11-06 11:07:31,366 - INFO - Car is on track.
+2023-11-06 11:07:31,384 - INFO - Car is on track.
+2023-11-06 11:07:31,402 - INFO - Car is on track.
+2023-11-06 11:07:31,418 - INFO - Car is on track.
+2023-11-06 11:07:31,438 - INFO - Car is on track.
+2023-11-06 11:07:31,454 - INFO - Car is on track.
+2023-11-06 11:07:31,472 - INFO - Car is on track.
+2023-11-06 11:07:31,488 - INFO - Car is on track.
+2023-11-06 11:07:31,504 - INFO - Car is on track.
+2023-11-06 11:07:31,521 - INFO - Car is on track.
+2023-11-06 11:07:31,536 - INFO - Car is on track.
+2023-11-06 11:07:31,553 - INFO - Car is on track.
+2023-11-06 11:07:31,573 - INFO - Car is on track.
+2023-11-06 11:07:31,593 - INFO - Car is on track.
+2023-11-06 11:07:31,611 - INFO - Car is on track.
+2023-11-06 11:07:31,629 - INFO - Car is on track.
+2023-11-06 11:07:31,646 - INFO - Car is on track.
+2023-11-06 11:07:31,664 - INFO - Car is on track.
+2023-11-06 11:07:31,680 - INFO - Car is on track.
+2023-11-06 11:07:31,697 - INFO - Car is on track.
+2023-11-06 11:07:31,720 - INFO - Car is on track.
+2023-11-06 11:07:31,739 - INFO - Car is on track.
+2023-11-06 11:07:31,758 - INFO - Car is on track.
+2023-11-06 11:07:31,775 - INFO - Car is on track.
+2023-11-06 11:07:31,799 - INFO - Car is on track.
+2023-11-06 11:07:31,822 - INFO - Car is on track.
+2023-11-06 11:07:31,852 - INFO - Car is on track.
+2023-11-06 11:07:31,885 - INFO - Car is on track.
+2023-11-06 11:07:31,911 - INFO - Car is on track.
+2023-11-06 11:07:31,931 - INFO - Car is on track.
+2023-11-06 11:07:31,952 - INFO - Car is on track.
+2023-11-06 11:07:31,970 - INFO - Car is on track.
+2023-11-06 11:07:31,987 - INFO - Car is on track.
+2023-11-06 11:07:32,006 - INFO - Car is on track.
+2023-11-06 11:07:32,023 - INFO - Car is on track.
+2023-11-06 11:07:32,040 - INFO - Car is on track.
+2023-11-06 11:07:32,057 - INFO - Car is on track.
+2023-11-06 11:07:32,077 - INFO - Car is on track.
+2023-11-06 11:07:32,096 - INFO - Car is on track.
+2023-11-06 11:07:32,114 - INFO - Car is on track.
+2023-11-06 11:07:32,133 - INFO - Car is on track.
+2023-11-06 11:07:32,151 - INFO - Car is on track.
+2023-11-06 11:07:32,175 - INFO - Car is on track.
+2023-11-06 11:07:32,231 - INFO - Car is on track.
+2023-11-06 11:07:32,259 - INFO - Car is on track.
+2023-11-06 11:07:32,280 - INFO - Car is on track.
+2023-11-06 11:07:32,300 - INFO - Car is on track.
+2023-11-06 11:07:32,319 - INFO - Car is on track.
+2023-11-06 11:07:32,336 - INFO - Car is on track.
+2023-11-06 11:07:32,354 - INFO - Car is on track.
+2023-11-06 11:07:32,373 - INFO - Car is on track.
+2023-11-06 11:07:32,392 - INFO - Car is on track.
+2023-11-06 11:07:54,544 - INFO - Telemetry Ninja was started.
+2023-11-06 11:07:55,063 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 11:07:55,068 - INFO - Car is on track.
+2023-11-06 11:07:55,097 - INFO - Car is on track.
+2023-11-06 11:07:55,126 - INFO - Car is on track.
+2023-11-06 11:07:55,149 - INFO - Car is on track.
+2023-11-06 11:07:55,169 - INFO - Car is on track.
+2023-11-06 11:07:55,192 - INFO - Car is on track.
+2023-11-06 11:07:55,215 - INFO - Car is on track.
+2023-11-06 11:07:55,254 - INFO - Car is on track.
+2023-11-06 11:07:55,298 - INFO - Car is on track.
+2023-11-06 11:07:55,328 - INFO - Car is on track.
+2023-11-06 11:07:55,360 - INFO - Car is on track.
+2023-11-06 11:07:55,381 - INFO - Car is on track.
+2023-11-06 11:07:55,401 - INFO - Car is on track.
+2023-11-06 11:07:55,420 - INFO - Car is on track.
+2023-11-06 11:07:55,438 - INFO - Car is on track.
+2023-11-06 11:07:55,459 - INFO - Car is on track.
+2023-11-06 11:07:55,475 - INFO - Car is on track.
+2023-11-06 11:07:55,493 - INFO - Car is on track.
+2023-11-06 11:07:55,514 - INFO - Car is on track.
+2023-11-06 11:07:55,534 - INFO - Car is on track.
+2023-11-06 11:07:55,558 - INFO - Car is on track.
+2023-11-06 11:07:55,584 - INFO - Car is on track.
+2023-11-06 11:07:55,603 - INFO - Car is on track.
+2023-11-06 11:07:55,621 - INFO - Car is on track.
+2023-11-06 11:07:55,638 - INFO - Car is on track.
+2023-11-06 11:07:55,655 - INFO - Car is on track.
+2023-11-06 11:07:55,674 - INFO - Car is on track.
+2023-11-06 11:07:55,693 - INFO - Car is on track.
+2023-11-06 11:07:55,712 - INFO - Car is on track.
+2023-11-06 11:07:55,729 - INFO - Car is on track.
+2023-11-06 11:07:55,745 - INFO - Car is on track.
+2023-11-06 11:07:55,764 - INFO - Car is on track.
+2023-11-06 11:07:55,782 - INFO - Car is on track.
+2023-11-06 11:07:55,800 - INFO - Car is on track.
+2023-11-06 11:07:55,817 - INFO - Car is on track.
+2023-11-06 11:07:55,837 - INFO - Car is on track.
+2023-11-06 11:07:55,854 - INFO - Car is on track.
+2023-11-06 11:07:55,874 - INFO - Car is on track.
+2023-11-06 11:07:55,897 - INFO - Car is on track.
+2023-11-06 11:07:55,916 - INFO - Car is on track.
+2023-11-06 11:07:55,936 - INFO - Car is on track.
+2023-11-06 11:07:55,956 - INFO - Car is on track.
+2023-11-06 11:07:55,973 - INFO - Car is on track.
+2023-11-06 11:07:55,991 - INFO - Car is on track.
+2023-11-06 11:07:56,008 - INFO - Car is on track.
+2023-11-06 11:07:56,025 - INFO - Car is on track.
+2023-11-06 11:07:56,043 - INFO - Car is on track.
+2023-11-06 11:07:56,067 - INFO - Car is on track.
+2023-11-06 11:07:56,086 - INFO - Car is on track.
+2023-11-06 11:07:56,108 - INFO - Car is on track.
+2023-11-06 11:07:56,126 - INFO - Car is on track.
+2023-11-06 11:07:56,144 - INFO - Car is on track.
+2023-11-06 11:07:56,162 - INFO - Car is on track.
+2023-11-06 11:07:56,180 - INFO - Car is on track.
+2023-11-06 11:07:56,196 - INFO - Car is on track.
+2023-11-06 11:07:56,213 - INFO - Car is on track.
+2023-11-06 11:07:56,231 - INFO - Car is on track.
+2023-11-06 11:07:56,248 - INFO - Car is on track.
+2023-11-06 11:07:56,265 - INFO - Car is on track.
+2023-11-06 11:07:56,285 - INFO - Car is on track.
+2023-11-06 11:07:56,305 - INFO - Car is on track.
+2023-11-06 11:07:56,326 - INFO - Car is on track.
+2023-11-06 11:07:56,348 - INFO - Car is on track.
+2023-11-06 11:07:56,368 - INFO - Car is on track.
+2023-11-06 11:07:56,389 - INFO - Car is on track.
+2023-11-06 11:07:56,410 - INFO - Car is on track.
+2023-11-06 11:07:56,430 - INFO - Car is on track.
+2023-11-06 11:07:56,453 - INFO - Car is on track.
+2023-11-06 11:07:56,477 - INFO - Car is on track.
+2023-11-06 11:07:56,503 - INFO - Car is on track.
+2023-11-06 11:07:56,526 - INFO - Car is on track.
+2023-11-06 11:07:56,550 - INFO - Car is on track.
+2023-11-06 11:07:56,572 - INFO - Car is on track.
+2023-11-06 11:07:56,636 - INFO - Car is on track.
+2023-11-06 11:07:56,663 - INFO - Car is on track.
+2023-11-06 11:07:56,684 - INFO - Car is on track.
+2023-11-06 11:07:56,705 - INFO - Car is on track.
+2023-11-06 11:07:56,725 - INFO - Car is on track.
+2023-11-06 11:07:56,749 - INFO - Car is on track.
+2023-11-06 11:07:56,772 - INFO - Car is on track.
+2023-11-06 11:07:56,796 - INFO - Car is on track.
+2023-11-06 11:07:56,818 - INFO - Car is on track.
+2023-11-06 11:07:56,838 - INFO - Car is on track.
+2023-11-06 11:07:56,865 - INFO - Car is on track.
+2023-11-06 11:07:56,885 - INFO - Car is on track.
+2023-11-06 11:07:56,908 - INFO - Car is on track.
+2023-11-06 11:07:56,931 - INFO - Car is on track.
+2023-11-06 11:07:56,951 - INFO - Car is on track.
+2023-11-06 11:07:56,977 - INFO - Car is on track.
+2023-11-06 11:07:56,998 - INFO - Car is on track.
+2023-11-06 11:07:57,022 - INFO - Car is on track.
+2023-11-06 11:07:57,042 - INFO - Car is on track.
+2023-11-06 11:07:57,072 - INFO - Car is on track.
+2023-11-06 11:07:57,093 - INFO - Car is on track.
+2023-11-06 11:07:57,119 - INFO - Car is on track.
+2023-11-06 11:07:57,148 - INFO - Car is on track.
+2023-11-06 11:07:57,172 - INFO - Car is on track.
+2023-11-06 11:07:57,197 - INFO - Car is on track.
+2023-11-06 11:07:57,217 - INFO - Car is on track.
+2023-11-06 11:07:57,238 - INFO - Car is on track.
+2023-11-06 11:07:57,265 - INFO - Car is on track.
+2023-11-06 11:07:57,282 - INFO - Car is on track.
+2023-11-06 11:07:57,300 - INFO - Car is on track.
+2023-11-06 11:07:57,318 - INFO - Car is on track.
+2023-11-06 11:07:57,338 - INFO - Car is on track.
+2023-11-06 11:07:57,356 - INFO - Car is on track.
+2023-11-06 11:07:57,376 - INFO - Car is on track.
+2023-11-06 11:07:57,396 - INFO - Car is on track.
+2023-11-06 11:07:57,415 - INFO - Car is on track.
+2023-11-06 11:07:57,434 - INFO - Car is on track.
+2023-11-06 11:07:57,452 - INFO - Car is on track.
+2023-11-06 11:07:57,470 - INFO - Car is on track.
+2023-11-06 11:07:57,489 - INFO - Car is on track.
+2023-11-06 11:07:57,506 - INFO - Car is on track.
+2023-11-06 11:07:57,524 - INFO - Car is on track.
+2023-11-06 11:07:57,542 - INFO - Car is on track.
+2023-11-06 11:07:57,563 - INFO - Car is on track.
+2023-11-06 11:07:57,582 - INFO - Car is on track.
+2023-11-06 11:07:57,642 - INFO - Car is on track.
+2023-11-06 11:07:57,665 - INFO - Car is on track.
+2023-11-06 11:07:57,683 - INFO - Car is on track.
+2023-11-06 11:07:57,701 - INFO - Car is on track.
+2023-11-06 11:07:57,719 - INFO - Car is on track.
+2023-11-06 11:07:57,738 - INFO - Car is on track.
+2023-11-06 11:07:57,763 - INFO - Car is on track.
+2023-11-06 11:07:57,784 - INFO - Car is on track.
+2023-11-06 11:07:57,805 - INFO - Car is on track.
+2023-11-06 11:07:57,830 - INFO - Car is on track.
+2023-11-06 11:07:57,848 - INFO - Car is on track.
+2023-11-06 11:07:57,869 - INFO - Car is on track.
+2023-11-06 11:07:57,888 - INFO - Car is on track.
+2023-11-06 11:07:57,907 - INFO - Car is on track.
+2023-11-06 11:07:57,929 - INFO - Car is on track.
+2023-11-06 11:07:57,949 - INFO - Car is on track.
+2023-11-06 11:07:57,972 - INFO - Car is on track.
+2023-11-06 11:07:57,998 - INFO - Car is on track.
+2023-11-06 11:07:58,019 - INFO - Car is on track.
+2023-11-06 11:07:58,040 - INFO - Car is on track.
+2023-11-06 11:07:58,064 - INFO - Car is on track.
+2023-11-06 11:07:58,085 - INFO - Car is on track.
+2023-11-06 11:07:58,104 - INFO - Car is on track.
+2023-11-06 11:07:58,123 - INFO - Car is on track.
+2023-11-06 11:07:58,143 - INFO - Car is on track.
+2023-11-06 11:07:58,166 - INFO - Car is on track.
+2023-11-06 11:07:58,186 - INFO - Car is on track.
+2023-11-06 11:07:58,206 - INFO - Car is on track.
+2023-11-06 11:07:58,226 - INFO - Car is on track.
+2023-11-06 11:07:58,247 - INFO - Car is on track.
+2023-11-06 11:07:58,267 - INFO - Car is on track.
+2023-11-06 11:07:58,326 - INFO - Car is on track.
+2023-11-06 11:07:58,347 - INFO - Car is on track.
+2023-11-06 11:07:58,365 - INFO - Car is on track.
+2023-11-06 11:07:58,382 - INFO - Car is on track.
+2023-11-06 11:07:58,401 - INFO - Car is on track.
+2023-11-06 11:07:58,419 - INFO - Car is on track.
+2023-11-06 11:07:58,438 - INFO - Car is on track.
+2023-11-06 11:07:58,458 - INFO - Car is on track.
+2023-11-06 11:07:58,480 - INFO - Car is on track.
+2023-11-06 11:07:58,498 - INFO - Car is on track.
+2023-11-06 11:07:58,517 - INFO - Car is on track.
+2023-11-06 11:07:58,539 - INFO - Car is on track.
+2023-11-06 11:07:58,595 - INFO - Car is on track.
+2023-11-06 11:07:58,620 - INFO - Car is on track.
+2023-11-06 11:10:39,925 - INFO - Telemetry Ninja was started.
+2023-11-06 11:10:40,429 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 11:10:40,434 - INFO - Car is on track.
+2023-11-06 11:11:47,130 - INFO - Telemetry Ninja was started.
+2023-11-06 11:11:47,635 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 11:11:47,645 - INFO - Car is on track.
+2023-11-06 11:11:56,020 - INFO - Telemetry Ninja was started.
+2023-11-06 11:11:56,536 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 11:11:56,545 - INFO - Car is on track.
+2023-11-06 11:19:39,853 - INFO - Telemetry Ninja was started.
+2023-11-06 11:19:40,435 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 11:19:40,437 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 11:19:40,441 - DEBUG - Creating database attributes.
+2023-11-06 11:19:40,468 - INFO - Car is on track.
+2023-11-06 11:19:40,469 - INFO - Connecting to sqlite3 database.
+2023-11-06 11:19:40,471 - DEBUG - Creating database table.
+2023-11-06 12:05:55,364 - INFO - Telemetry Ninja was started.
+2023-11-06 12:05:55,925 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 12:05:55,926 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 12:05:55,931 - DEBUG - Creating database attributes.
+2023-11-06 12:05:55,952 - INFO - Car is on track.
+2023-11-06 12:05:55,953 - INFO - Connecting to sqlite3 database.
+2023-11-06 12:06:15,291 - INFO - Telemetry Ninja was started.
+2023-11-06 12:06:15,840 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 12:06:15,841 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 12:06:15,844 - DEBUG - Creating database attributes.
+2023-11-06 12:06:15,868 - INFO - Car is on track.
+2023-11-06 12:06:15,869 - INFO - Connecting to sqlite3 database.
+2023-11-06 12:06:15,870 - DEBUG - Creating database table.
+2023-11-06 12:28:34,057 - INFO - Telemetry Ninja was started.
+2023-11-06 12:28:34,668 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 12:28:34,669 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 12:28:34,673 - DEBUG - Creating database attributes.
+2023-11-06 12:28:34,693 - INFO - Car is on track.
+2023-11-06 12:28:34,694 - INFO - Connecting to sqlite3 database.
+2023-11-06 12:28:34,695 - DEBUG - Creating database table.
+2023-11-06 12:28:40,257 - INFO - Telemetry Ninja was started.
+2023-11-06 12:28:40,768 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 12:28:40,769 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 12:28:40,773 - DEBUG - Creating database attributes.
+2023-11-06 12:28:40,798 - INFO - Car is on track.
+2023-11-06 12:28:40,798 - INFO - Connecting to sqlite3 database.
+2023-11-06 12:28:40,800 - DEBUG - Creating database table.
+2023-11-06 12:28:43,569 - INFO - Telemetry Ninja was started.
+2023-11-06 12:28:44,084 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 12:28:44,085 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 12:28:44,088 - DEBUG - Creating database attributes.
+2023-11-06 12:28:44,114 - INFO - Car is on track.
+2023-11-06 12:28:44,114 - INFO - Connecting to sqlite3 database.
+2023-11-06 12:28:44,116 - DEBUG - Creating database table.
+2023-11-06 13:44:31,696 - INFO - Telemetry Ninja was started.
+2023-11-06 13:44:32,378 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 13:44:32,379 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 13:44:32,383 - DEBUG - Creating database attributes.
+2023-11-06 13:44:32,442 - INFO - Car is on track.
+2023-11-06 13:44:32,445 - INFO - Connecting to sqlite3 database.
+2023-11-06 13:44:32,446 - DEBUG - Creating database table.
+2023-11-06 13:45:00,578 - INFO - Telemetry Ninja was started.
+2023-11-06 13:45:01,126 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 13:45:01,127 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 13:45:01,129 - DEBUG - Creating database attributes.
+2023-11-06 13:45:01,158 - INFO - Car is on track.
+2023-11-06 13:45:01,158 - INFO - Connecting to sqlite3 database.
+2023-11-06 13:45:01,160 - DEBUG - Creating database table.
+2023-11-06 14:27:31,384 - INFO - Telemetry Ninja was started.
+2023-11-06 14:27:31,822 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:27:31,823 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:27:31,829 - INFO - Car is on track.
+2023-11-06 14:27:46,686 - INFO - Telemetry Ninja was started.
+2023-11-06 14:27:47,125 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:27:47,126 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:27:47,129 - DEBUG - Creating database attributes.
+2023-11-06 14:27:47,148 - INFO - Car is on track.
+2023-11-06 14:30:10,914 - INFO - Telemetry Ninja was started.
+2023-11-06 14:30:11,341 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:30:11,342 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:30:11,345 - DEBUG - Creating database attributes.
+2023-11-06 14:30:11,367 - INFO - Car is on track.
+2023-11-06 14:30:11,368 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:30:11,369 - DEBUG - Attempting to create database
+2023-11-06 14:30:50,750 - INFO - Telemetry Ninja was started.
+2023-11-06 14:30:51,173 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:30:51,174 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:30:51,176 - DEBUG - Creating database attributes.
+2023-11-06 14:30:51,195 - INFO - Car is on track.
+2023-11-06 14:30:51,195 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:30:51,196 - DEBUG - Attempting to create database
+2023-11-06 14:31:01,782 - INFO - Telemetry Ninja was started.
+2023-11-06 14:31:02,240 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:31:02,241 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:31:02,243 - DEBUG - Creating database attributes.
+2023-11-06 14:31:02,262 - INFO - Car is on track.
+2023-11-06 14:31:02,262 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:31:02,263 - DEBUG - Attempting to create database
+2023-11-06 14:32:10,350 - INFO - Telemetry Ninja was started.
+2023-11-06 14:32:10,789 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:32:10,791 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:32:10,793 - DEBUG - Creating database attributes.
+2023-11-06 14:32:10,811 - INFO - Car is on track.
+2023-11-06 14:32:10,812 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:32:10,813 - DEBUG - Attempting to create database
+2023-11-06 14:33:21,555 - INFO - Telemetry Ninja was started.
+2023-11-06 14:33:21,972 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:33:21,973 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:33:21,976 - DEBUG - Creating database attributes.
+2023-11-06 14:33:21,993 - INFO - Car is on track.
+2023-11-06 14:33:21,993 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:33:21,994 - DEBUG - Attempting to create database
+2023-11-06 14:35:37,674 - INFO - Telemetry Ninja was started.
+2023-11-06 14:35:38,106 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:35:38,107 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:35:38,109 - DEBUG - Creating database attributes.
+2023-11-06 14:35:38,127 - INFO - Car is on track.
+2023-11-06 14:35:38,128 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:35:38,129 - DEBUG - Creating database table.
+2023-11-06 14:35:38,135 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:35:41,936 - INFO - Telemetry Ninja was started.
+2023-11-06 14:35:42,356 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:35:42,356 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:35:42,359 - DEBUG - Creating database attributes.
+2023-11-06 14:35:42,376 - INFO - Car is on track.
+2023-11-06 14:35:42,377 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:37:00,900 - INFO - Telemetry Ninja was started.
+2023-11-06 14:37:01,321 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:37:01,322 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:37:01,324 - DEBUG - Creating database attributes.
+2023-11-06 14:37:01,344 - INFO - Car is on track.
+2023-11-06 14:37:01,344 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:38:15,684 - INFO - Telemetry Ninja was started.
+2023-11-06 14:38:16,121 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:38:16,122 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:38:16,125 - DEBUG - Creating database attributes.
+2023-11-06 14:38:16,143 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:38:16,144 - INFO - Car is on track.
+2023-11-06 14:38:30,522 - INFO - Telemetry Ninja was started.
+2023-11-06 14:38:30,955 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:38:30,956 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:38:30,958 - DEBUG - Creating database attributes.
+2023-11-06 14:38:30,977 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:38:30,979 - INFO - Car is on track.
+2023-11-06 14:42:11,563 - INFO - Telemetry Ninja was started.
+2023-11-06 14:42:12,004 - DEBUG - Successfully connected to iRacing Simulator.
+2023-11-06 14:42:12,005 - DEBUG - Parsing C:\Users\olive\Development\telemetry-ninja\config\telemetry.ini to Python3 dict.
+2023-11-06 14:42:12,007 - DEBUG - Creating database attributes.
+2023-11-06 14:42:12,027 - INFO - Car is on track.
+2023-11-06 14:42:12,028 - INFO - Connecting to sqlite3 database.
+2023-11-06 14:42:12,029 - DEBUG - Creating database table.
+2023-11-06 14:42:12,037 - INFO - Connecting to sqlite3 database.
