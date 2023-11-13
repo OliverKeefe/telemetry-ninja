@@ -1,27 +1,35 @@
 terraform {
-    required_providers {
-        docker = {
-            source = "kreuzwerker/docker"
-            version = "2.23.1"
-        }
+  required_providers {
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "2.23.1"
     }
+  }
 }
 
 provider "docker" {
-    # host = "unix:///var/run/docker.sock"
-    host = "tcp://localhost:2375"
+  host = "npipe:////.//pipe//docker_engine"
 }
-
-# Create docker MySql container
 
 resource "docker_image" "mysql" {
-    name = "mysql:latest"
+  name         = "mysql:5.7"
+  keep_locally = false
 }
 
-resource "docker_container" "dbserver" {
-    image = docker_image.mysql.latest
-    name = "dbserver"
-    must_run = true
-    publish_all_ports = true
-    #command = ["--default-authentication-plugin=mysql_native_password"]
+resource "docker_container" "mysql" {
+  image = docker_image.mysql.latest
+  name  = "mysql"
+  ports {
+    internal = 3306
+    external = 3306
+  }
+
+  env = [
+    "MYSQL_ROOT_PASSWORD=secret",
+    "MYSQL_DATABASE=telemetry_ninja",
+    "MYSQL_USER=testuser",
+    "MYSQL_PASSWORD=testpassword", #TODO: Actually use proper secret management etc... This is just for testing.
+  ]
+  restart = "always"
 }
+
