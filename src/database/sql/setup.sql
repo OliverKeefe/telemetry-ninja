@@ -240,12 +240,13 @@ CREATE TABLE iracing_telemetry (
     yaw_north FLOAT,
     yaw_rate FLOAT,
     yaw_rate_st FLOAT
+
+    -- FOREIGN KEY (speed_unit_id) REFERENCES measurement_units(id)
 );
 
 
-    FOREIGN KEY (speed_unit_id) REFERENCES measurement_units(id)
     
-);
+    
 
 CREATE TABLE f1_23_telemetry (
     id INT PRIMARY KEY AUTO_INCREMENT,

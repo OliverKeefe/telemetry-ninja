@@ -1,4 +1,5 @@
 from pathlib import Path
+from database.model.iracing_telemetry_model import IracingTelemetry
 
 
 class Telemetry:
@@ -26,7 +27,8 @@ class Telemetry:
                         key, value = line.split("=", 1)
                         parsed_labels[key.strip()] = value.strip()
                 except Exception as e:
-                    logger.error(f"Error parsing {ini_labels} to Python3 dict: {e}")
+                    logger.error(
+                        f"Error parsing {ini_labels} to Python3 dict: {e}")
         return parsed_labels
 
     @staticmethod
