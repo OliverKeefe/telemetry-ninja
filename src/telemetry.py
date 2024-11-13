@@ -1,5 +1,7 @@
 from pathlib import Path
 from database.model.iracing_telemetry_model import IracingTelemetry
+import datetime
+import uuid
 
 
 class Telemetry:
@@ -32,7 +34,7 @@ class Telemetry:
         return parsed_labels
 
     @staticmethod
-    def telemetry_get(ir: object, parsed_labels: dict, logger: object):
+    def telemetry_get(ir: object, parsed_labels: dict, logger):
         telemetry_data = {}
         try:
             for key in parsed_labels.keys():
