@@ -1,3 +1,4 @@
+![TN-Logo](https://github.com/user-attachments/assets/701d898b-bb29-49b5-938f-634d6bd14bfe)
 <svg width="800" height="414" viewBox="0 0 800 414" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="194" width="414" height="414" rx="207" fill="#5081FF"/>
 <rect x="194" width="414" height="414" rx="207" fill="url(#paint0_linear_5_42)"/>
@@ -38,7 +39,6 @@
 </linearGradient>
 </defs>
 </svg>
-
 
 # Telemetry Ninja
 
