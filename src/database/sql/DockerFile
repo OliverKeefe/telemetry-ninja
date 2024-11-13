@@ -1,0 +1,12 @@
+FROM mysql:8.0
+
+# Environment variables
+ENV MYSQL_ROOT_PASSWORD=super_secure_password
+ENV MYSQL_DATABASE=telemetry
+ENV MYSQL_USER=user1
+ENV MYSQL_PASSWORD=top_secret_password
+
+# Setup
+COPY ./sql/schema.sql /docker-entrypoint-initdb.d/
+
+EXPOSE 3306
