@@ -79,12 +79,11 @@ class Database:
 
         with database_connection:
             cursor.execute(
-                f"CREATE TABLE IF NOT EXISTS telemetry ({columns_to_string})"
+                f"CREATE TABLE IF NOT EXISTS iracing_telemetry ({columns_to_string})"
             )
 
             database_connection.commit()
 
-    # TODO: Fix this method. It's not inputting data into the table for some reason.
     @staticmethod
     def table_insert(
         table_name: str,
