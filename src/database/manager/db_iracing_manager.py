@@ -1,0 +1,2 @@
+class iRacingDatabaseManager(DatabaseConnectionManager):
+    pass
