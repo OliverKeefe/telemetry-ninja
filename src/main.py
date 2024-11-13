@@ -98,9 +98,7 @@ def main(sim, db):
                 logger.info("Resuming...")
 
 
-# def arguments()
-
-
+# TODO: Implement the remaining arguments
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Telemetry Ninja")
 
