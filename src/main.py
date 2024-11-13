@@ -105,7 +105,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Telemetry Ninja")
 
     parser.add_argument(
-        "-sim",
+        "-s",
         type=str,
         required=True,
         choices=["iRacing", "AssettoCorsa", "rFactor2",
@@ -123,4 +123,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    main(args.sim, args.db)
+    main(args.s, args.db)
