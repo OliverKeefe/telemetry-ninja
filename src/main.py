@@ -3,12 +3,14 @@ import irsdk
 import time
 import os
 from pathlib import Path
-from logconfig import LogConfiguration
+from logger.logconfig import LogConfiguration
 from telemetry import Telemetry
-from database import Database
+from database.controller.sqlite_controller import Database
 
 
 def main():
+    sqlite: bool = True
+    mysql: bool = False
     # Create Logger object, specify log file name, path and enable logging.
     logger, file_handler, formatter = LogConfiguration.enable(
         "TelemetryNinja",
@@ -35,39 +37,62 @@ def main():
     while True:
         if ir["IsOnTrack"]:
             logger.info("Car is on track.")
-            if not Path("telemetry_ninja.db").exists():
-                # TODO: Look at this, change names of this method, this is for creating Database, not just table.
-                Database.table_create(
-                    database_name="telemetry_ninja.db",
-                    database_connection=Database.database_connect(
+            if sqlite == True:
+                if not Path("telemetry_ninja.db").exists():
+                    # TODO: Look at this, change names of this method, this is for creating Database, not just table.
+                    try:
+                        Database.create(
+                            database_name="telemetry_ninja.db",
+                            database_connection=Database.database_connect(
+                                database_name="telemetry_ninja.db",
+                                database_manager="sqlite3",
+                                logger=logger,
+                            ),
+                            telemetry_data=telemetry_data,
+                            logger=logger,
+                        )
+
+                    except:
+                        logger.error(
+                            "Error, unable to create SQLite3 test database.")
+
+                try:
+                    # Establish database connection and create table
+                    database_connection = Database.database_connect(
                         database_name="telemetry_ninja.db",
                         database_manager="sqlite3",
                         logger=logger,
-                    ),
-                    telemetry_data=telemetry_data,
-                    logger=logger,
+                    )
+                except:
+                    logger.error(
+                        "Error, unable to connect to the SQLite3 test database.")
+
+                telemetry_data = Telemetry.telemetry_get(
+                    ir, parsed_labels, logger)
+                Database.table_insert(
+                    "telemetry",
+                    database_connection,
+                    telemetry_data,
+                    logger,
                 )
+                print(f"Telemetry: {telemetry_data}")
+            else:
+                print("Only sqlite3 is supported currently, aboirting...")
+                sys.exit(1)
 
-            # Establish database connection and create table
-            database_connection = Database.database_connect(
-                database_name="telemetry_ninja.db",
-                database_manager="sqlite3",
-                logger=logger,
-            )
-
-            telemetry_data = Telemetry.telemetry_get(ir, parsed_labels, logger)
-            Database.table_insert(
-                "telemetry",
-                database_connection,
-                telemetry_data,
-                logger,
-            )
-            # print(f"Telemetry: {telemetry}")
-            print(f"Telemetry: {telemetry_data}")
-            sys.exit(1)
         else:
             logger.info("Car is not on track.")
             time.sleep(2)
+            resume = input("Resume? Y/N Default: [N]").strip().lower()
+
+            if resume != "y":
+                logger.info("Exiting...")
+                sys.exit(1)
+            else:
+                logger.info("Resuming...")
+
+
+# def arguments()
 
 
 if __name__ == "__main__":
